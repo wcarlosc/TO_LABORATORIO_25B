@@ -19,8 +19,9 @@ Características principales
   - `Report` depende de `Student` (**dependencia**).
 
 ## Diagrama UML
-![Diagrama UML](docs/uml.png) <br>
+
 El ejercicio se representa con el siguiente diagrama UML:
+![Diagrama UML](docs/uml.png) <br>
 
 ```plantuml
 @startuml
