@@ -19,6 +19,7 @@ Características principales
   - `Report` depende de `Student` (**dependencia**).
 
 ## Diagrama UML
+![Diagrama UML](docs/uml.png)
 El sistema se representa con el siguiente diagrama UML (usando **PlantUML**):
 
 ```plantuml
