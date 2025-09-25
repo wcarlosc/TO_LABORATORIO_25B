@@ -1,4 +1,4 @@
-Sistema Universitario en C++
+## Sistema Universitario en C++
 
 Este proyecto implementa un pequeño sistema orientado a objetos en C++ para modelar una **universidad**, incluyendo personas (profesores y estudiantes), cursos, horarios y reportes.
 
