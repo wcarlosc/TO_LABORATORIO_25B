@@ -51,7 +51,7 @@ public:
     }
 
     string getSchedule() {   
-        return "Day: " + day + ", Start: " + startTime + ", End: " + endTime;
+        return day + " de " + startTime + " a  " + endTime;
     }
 };
 class Course {
@@ -76,6 +76,15 @@ public:
     void addCourse(Course* c) {
         if (c) courses.push_back(c);
     }
+    void removeCourse(Course* c) {
+        if (c) courses.remove(c);
+    }
+    void printCourses(){
+        for (Course* c : courses) {
+            cout <<"* Curso: "<< c->getTitle()<<"- Horario: "<<c->getSchedule() << endl;
+        }
+    }
+
     
     list<Course*>& getCourses() { return courses; }
 };
@@ -100,6 +109,30 @@ int main(){
 
     Teacher t1("Manuel");
     Teacher t2("Carmen");
+    
+    Schedule sch1("Lunes","08:00","10:000");
+    Schedule sch2("Martes","10:00","12:00");
+    Schedule sch3("Miercoles","12:00","14:00");
+    Schedule sch4("Jueves","14:00","16:00");
+    
+    Course c1("Programacion",sch1);
+    Course c2;
+    Course c3("Matematicas",sch2);
+    Course c4("Fisica",sch3);
+    Course c5("Quimica",sch4);
+    cout<<endl;
+
+    University u1;
+    u1.addCourse(&c1);
+    u1.addCourse(&c2);
+    u1.addCourse(&c3);
+    u1.addCourse(&c4);
+    u1.addCourse(&c5);
+    cout<<endl; 
+
+    cout<<"Listado de cursos"<<endl;
+    u1.printCourses();
+    
 
     return 0;
 }
