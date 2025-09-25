@@ -20,7 +20,7 @@ Características principales
 
 ## Diagrama UML
 ![Diagrama UML](docs/uml.png) <br>
-Este diagrama representa con el siguiente diagrama UML:
+El ejercicio se representa con el siguiente diagrama UML:
 
 ```plantuml
 @startuml
