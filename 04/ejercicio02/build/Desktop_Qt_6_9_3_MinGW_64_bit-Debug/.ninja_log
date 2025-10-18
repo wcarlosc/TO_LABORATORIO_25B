@@ -1,0 +1,24 @@
+# ninja log v6
+2362	2547	7824571236044115	untitled6.exe	bc6e0deab0a0f5fb
+208	2064	7824571214507357	CMakeFiles/untitled6.dir/mainwindow.cpp.obj	2e7757b023c2bc88
+991	3966	7824567510684797	CMakeFiles/untitled6.dir/untitled6_autogen/mocs_compilation.cpp.obj	6a428a7af2ad8a0f
+28	207	7824571212701838	C:/Users/XXAS/Documents/untitled6/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/untitled6_autogen/mocs_compilation.cpp	7972a28bf3cfe237
+28	207	7824571212701838	C:/Users/XXAS/Documents/untitled6/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/untitled6_autogen/timestamp	7972a28bf3cfe237
+211	2362	7824571214537456	CMakeFiles/untitled6.dir/Task.cpp.obj	97b936786f0d8314
+997	4000	7824567510746356	CMakeFiles/untitled6.dir/main.cpp.obj	e874a2382433a03f
+28	207	7824571212701838	untitled6_autogen/mocs_compilation.cpp	7972a28bf3cfe237
+28	207	7824571212701838	untitled6_autogen/timestamp	7972a28bf3cfe237
+12	198	7824574189382955	untitled6_autogen/timestamp	7972a28bf3cfe237
+12	198	7824574189382955	untitled6_autogen/mocs_compilation.cpp	7972a28bf3cfe237
+12	198	7824574189382955	C:/Users/XXAS/Documents/untitled6/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/untitled6_autogen/timestamp	7972a28bf3cfe237
+12	198	7824574189382955	C:/Users/XXAS/Documents/untitled6/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/untitled6_autogen/mocs_compilation.cpp	7972a28bf3cfe237
+198	2075	7824574191244296	CMakeFiles/untitled6.dir/mainwindow.cpp.obj	2e7757b023c2bc88
+202	2366	7824574191274461	CMakeFiles/untitled6.dir/Task.cpp.obj	97b936786f0d8314
+2366	2552	7824574212917396	untitled6.exe	bc6e0deab0a0f5fb
+28	210	7824574504166982	untitled6_autogen/timestamp	7972a28bf3cfe237
+28	210	7824574504166982	untitled6_autogen/mocs_compilation.cpp	7972a28bf3cfe237
+28	210	7824574504166982	C:/Users/XXAS/Documents/untitled6/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/untitled6_autogen/timestamp	7972a28bf3cfe237
+28	210	7824574504166982	C:/Users/XXAS/Documents/untitled6/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/untitled6_autogen/mocs_compilation.cpp	7972a28bf3cfe237
+211	2061	7824574505995784	CMakeFiles/untitled6.dir/mainwindow.cpp.obj	2e7757b023c2bc88
+214	2333	7824574506025878	CMakeFiles/untitled6.dir/Task.cpp.obj	97b936786f0d8314
+2334	2516	7824574527226939	untitled6.exe	bc6e0deab0a0f5fb
