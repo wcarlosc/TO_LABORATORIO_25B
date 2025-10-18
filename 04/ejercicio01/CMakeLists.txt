@@ -1,11 +1,13 @@
 cmake_minimum_required(VERSION 3.19)
-project(untitled4 LANGUAGES CXX)
+project(ejercici01
+ LANGUAGES CXX)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
 qt_standard_project_setup()
 
-qt_add_executable(untitled4
+qt_add_executable(ejercici01
+
     WIN32 MACOSX_BUNDLE
     main.cpp
     mainwindow.cpp
@@ -13,7 +15,8 @@ qt_add_executable(untitled4
     mainwindow.ui
 )
 
-target_link_libraries(untitled4
+target_link_libraries(ejercici01
+
     PRIVATE
         Qt::Core
         Qt::Widgets
@@ -21,14 +24,16 @@ target_link_libraries(untitled4
 
 include(GNUInstallDirs)
 
-install(TARGETS untitled4
+install(TARGETS ejercici01
+
     BUNDLE  DESTINATION .
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
 )
 
 qt_generate_deploy_app_script(
-    TARGET untitled4
+    TARGET ejercici01
+    
     OUTPUT_SCRIPT deploy_script
     NO_UNSUPPORTED_PLATFORM_ERROR
 )
